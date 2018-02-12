@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRMBaseSuite]">
+  <test name="OrangeHRMBaseTest(failed)">
+    <classes>
+      <class name="testCases.CreateUser">
+        <methods>
+          <include name="createUser"/>
+        </methods>
+      </class> <!-- testCases.CreateUser -->
+      <class name="testCases.DeletingUser">
+        <methods>
+          <include name="deleteUser"/>
+          <include name="AppOrangeHRMLogin"/>
+        </methods>
+      </class> <!-- testCases.DeletingUser -->
+    </classes>
+  </test> <!-- OrangeHRMBaseTest(failed) -->
+</suite> <!-- Failed suite [OrangeHRMBaseSuite] -->
