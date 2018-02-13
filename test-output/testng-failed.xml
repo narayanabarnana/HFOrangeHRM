@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="testCases.CreateUser">
-        <methods>
-          <include name="setUp"/>
-          <include name="AppOrangeHRMLogin"/>
-          <include name="getResult"/>
-        </methods>
-      </class> <!-- testCases.CreateUser -->
       <class name="testCases.DeletingUser">
         <methods>
+          <include name="setUp"/>
           <include name="deleteUser"/>
           <include name="getResult"/>
           <include name="AppOrangeHRMLogin"/>
         </methods>
       </class> <!-- testCases.DeletingUser -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

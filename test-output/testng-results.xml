@@ -1,46 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="55942" started-at="2018-02-09T14:19:21Z" finished-at="2018-02-09T14:20:17Z">
+  <suite name="Default suite" duration-ms="33602" started-at="2018-02-13T09:46:48Z" finished-at="2018-02-13T09:47:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="55942" started-at="2018-02-09T14:19:21Z" finished-at="2018-02-09T14:20:17Z">
-      <class name="testCases.CreateUser">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.CreateUser@27ce24aa]" name="setUp" is-config="true" duration-ms="229" started-at="2018-02-09T19:49:21Z" finished-at="2018-02-09T19:49:21Z">
+    <test name="Default test" duration-ms="33602" started-at="2018-02-13T09:46:48Z" finished-at="2018-02-13T09:47:21Z">
+      <class name="testCases.DeletingUser">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="setUp" is-config="true" duration-ms="1314" started-at="2018-02-13T15:16:46Z" finished-at="2018-02-13T15:16:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="AppOrangeHRMLogin()[pri:0, instance:testCases.CreateUser@27ce24aa]" name="AppOrangeHRMLogin" is-config="true" duration-ms="16508" started-at="2018-02-09T19:49:21Z" finished-at="2018-02-09T19:49:38Z">
+        <test-method status="PASS" signature="AppOrangeHRMLogin()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="AppOrangeHRMLogin" is-config="true" duration-ms="28463" started-at="2018-02-13T15:16:48Z" finished-at="2018-02-13T15:17:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppOrangeHRMLogin -->
-        <test-method status="PASS" signature="createUser()[pri:0, instance:testCases.CreateUser@27ce24aa]" name="createUser" duration-ms="21208" started-at="2018-02-09T19:49:38Z" finished-at="2018-02-09T19:49:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.CreateUser@27ce24aa]" name="getResult" is-config="true" duration-ms="83" started-at="2018-02-09T19:49:59Z" finished-at="2018-02-09T19:49:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=createUser status=SUCCESS method=CreateUser.createUser()[pri:0, instance:testCases.CreateUser@27ce24aa] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:testCases.CreateUser@27ce24aa]" name="teardown" is-config="true" duration-ms="0" started-at="2018-02-09T19:50:17Z" finished-at="2018-02-09T19:50:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.CreateUser -->
-      <class name="testCases.DeletingUser">
-        <test-method status="PASS" signature="AppOrangeHRMLogin()[pri:0, instance:testCases.DeletingUser@68999068]" name="AppOrangeHRMLogin" is-config="true" duration-ms="13040" started-at="2018-02-09T19:49:59Z" finished-at="2018-02-09T19:50:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AppOrangeHRMLogin -->
-        <test-method status="FAIL" signature="deleteUser()[pri:0, instance:testCases.DeletingUser@68999068]" name="deleteUser" duration-ms="5016" started-at="2018-02-09T19:50:12Z" finished-at="2018-02-09T19:50:17Z">
+        <test-method status="FAIL" signature="deleteUser()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="deleteUser" duration-ms="5029" started-at="2018-02-13T15:17:16Z" finished-at="2018-02-13T15:17:21Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -50,7 +25,7 @@ null]]>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
 null
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
-	at testCases.DeletingUser.deleteUser(DeletingUser.java:71)
+	at testCases.DeletingUser.deleteUser(DeletingUser.java:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -81,11 +56,11 @@ null
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-        <test-method status="FAIL" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.DeletingUser@68999068]" name="getResult" is-config="true" duration-ms="0" started-at="2018-02-09T19:50:17Z" finished-at="2018-02-09T19:50:17Z">
+        <test-method status="FAIL" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.DeletingUser@3daa422a]" name="getResult" is-config="true" duration-ms="0" started-at="2018-02-13T15:17:21Z" finished-at="2018-02-13T15:17:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=deleteUser status=FAILURE method=DeletingUser.deleteUser()[pri:0, instance:testCases.DeletingUser@68999068] output={null}]]]>
+                <![CDATA[[TestResult name=deleteUser status=FAILURE method=DeletingUser.deleteUser()[pri:0, instance:testCases.DeletingUser@3daa422a] output={null}]]]>
               </value>
             </param>
           </params>
@@ -126,7 +101,15 @@ null
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="Logout()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-13T15:17:21Z" finished-at="2018-02-13T15:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="teardown" is-config="true" duration-ms="0" started-at="2018-02-13T15:17:22Z" finished-at="2018-02-13T15:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- testCases.DeletingUser -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
