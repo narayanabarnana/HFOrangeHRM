@@ -10,6 +10,8 @@ import org.openqa.selenium.WebDriver;
 
 public class GetScreenshot {
 	
+	
+	
 	public static String capture(WebDriver driver, String screenshotName) throws Exception
 	{
 		TakesScreenshot ts=(TakesScreenshot)driver;

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33602" started-at="2018-02-13T09:46:48Z" finished-at="2018-02-13T09:47:21Z">
+  <suite name="Default suite" duration-ms="33303" started-at="2018-02-14T04:41:19Z" finished-at="2018-02-14T04:41:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33602" started-at="2018-02-13T09:46:48Z" finished-at="2018-02-13T09:47:21Z">
+    <test name="Default test" duration-ms="33303" started-at="2018-02-14T04:41:19Z" finished-at="2018-02-14T04:41:52Z">
       <class name="testCases.DeletingUser">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="setUp" is-config="true" duration-ms="1314" started-at="2018-02-13T15:16:46Z" finished-at="2018-02-13T15:16:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="setUp" is-config="true" duration-ms="2515" started-at="2018-02-14T10:11:16Z" finished-at="2018-02-14T10:11:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="AppOrangeHRMLogin()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="AppOrangeHRMLogin" is-config="true" duration-ms="28463" started-at="2018-02-13T15:16:48Z" finished-at="2018-02-13T15:17:16Z">
+        <test-method status="PASS" signature="AppOrangeHRMLogin()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="AppOrangeHRMLogin" is-config="true" duration-ms="27496" started-at="2018-02-14T10:11:19Z" finished-at="2018-02-14T10:11:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppOrangeHRMLogin -->
-        <test-method status="FAIL" signature="deleteUser()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="deleteUser" duration-ms="5029" started-at="2018-02-13T15:17:16Z" finished-at="2018-02-13T15:17:21Z">
+        <test-method status="FAIL" signature="deleteUser()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="deleteUser" duration-ms="5042" started-at="2018-02-14T10:11:47Z" finished-at="2018-02-14T10:11:52Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -25,7 +25,7 @@ null]]>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
 null
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
-	at testCases.DeletingUser.deleteUser(DeletingUser.java:72)
+	at testCases.DeletingUser.deleteUser(DeletingUser.java:76)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -56,7 +56,7 @@ null
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-        <test-method status="FAIL" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.DeletingUser@3daa422a]" name="getResult" is-config="true" duration-ms="0" started-at="2018-02-13T15:17:21Z" finished-at="2018-02-13T15:17:21Z">
+        <test-method status="FAIL" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.DeletingUser@3daa422a]" name="getResult" is-config="true" duration-ms="0" started-at="2018-02-14T10:11:52Z" finished-at="2018-02-14T10:11:52Z">
           <params>
             <param index="0">
               <value>
@@ -67,8 +67,8 @@ null
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at utility.GetScreenshot.capture(GetScreenshot.java:16)
-	at utility.BaseExtentTest.getResult(BaseExtentTest.java:44)
+	at utility.GetScreenshot.capture(GetScreenshot.java:18)
+	at utility.BaseExtentTest.getResult(BaseExtentTest.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -101,11 +101,11 @@ null
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="SKIP" signature="Logout()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-13T15:17:21Z" finished-at="2018-02-13T15:17:21Z">
+        <test-method status="SKIP" signature="Logout()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="Logout" is-config="true" duration-ms="0" started-at="2018-02-14T10:11:52Z" finished-at="2018-02-14T10:11:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="teardown" is-config="true" duration-ms="0" started-at="2018-02-13T15:17:22Z" finished-at="2018-02-13T15:17:22Z">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:testCases.DeletingUser@3daa422a]" name="teardown" is-config="true" duration-ms="0" started-at="2018-02-14T10:11:52Z" finished-at="2018-02-14T10:11:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

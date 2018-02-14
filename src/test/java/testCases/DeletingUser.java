@@ -30,6 +30,7 @@ public class DeletingUser extends BaseExtentTest{
 	static ExcelDataConfig excel = new ExcelDataConfig("F:\\Selenium Framework\\com.hybridFramework\\ApplicationTestData\\TestData.xlsx");
 	
 	
+	
 	@BeforeMethod
 	public static void AppOrangeHRMLogin(){
 		
@@ -71,7 +72,6 @@ public class DeletingUser extends BaseExtentTest{
 		//Assert.assertEquals("Welcome", "Wec");
 		ass.assertAll();
 		
-				
 		//extent.flush();
 		
 		
@@ -80,8 +80,10 @@ public class DeletingUser extends BaseExtentTest{
 	@AfterTest
 	public void Logout() throws Exception{
 		
-		homepage.Logout();
+		//homepage.Logout();
 		BrowserFactory.closeBrowser(driver);
 	}
+	
+	
 
 }

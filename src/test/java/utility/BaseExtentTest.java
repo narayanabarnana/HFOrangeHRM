@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -15,12 +16,16 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import factory.BrowserFactory;
+
 public class BaseExtentTest {
 	
-	 WebDriver driver;
+	WebDriver driver;
 	public static ExtentReports extent;
 	public static ExtentTest logger;
 	public static ExtentHtmlReporter htmlReporter;
+	
+	
 	
 	@BeforeSuite
 	public void setUp()
@@ -68,6 +73,8 @@ public class BaseExtentTest {
 	{
 		extent.flush();
 	}
+	
+	
 	
 
 }
