@@ -30,7 +30,6 @@ public class DeletingUser extends BaseExtentTest{
 	static ExcelDataConfig excel = new ExcelDataConfig("F:\\Selenium Framework\\com.hybridFramework\\ApplicationTestData\\TestData.xlsx");
 	
 	
-	
 	@BeforeMethod
 	public static void AppOrangeHRMLogin(){
 		
